@@ -19,13 +19,21 @@ Una API RESTful robusta y escalable desarrollada en Java con Spring Boot para la
 El proyecto sigue una arquitectura híbrida (Capas + Módulos) recomendada para escalabilidad, aplicando principios SOLID:
 
 com.jorgedev.inventoriCoreApiRestFull
+
  ┣ 📂 auth           # Módulo de autenticación (Login/Registro, DTOs de Auth)
+ 
  ┣ 📂 config         # Configuraciones globales (Beans, SecurityConfig)
+ 
  ┣ 📂 controllers    # Endpoints de la API (Productos, Proveedores)
+ 
  ┣ 📂 dtos           # Objetos de Transferencia de Datos
+ 
  ┣ 📂 entities       # Modelos de la base de datos mapeados con JPA
+ 
  ┣ 📂 repositories   # Interfaces para operaciones CRUD en MySQL
+ 
  ┣ 📂 security       # Filtros JWT, Servicios de Token y Entidad de Usuario
+ 
  ┗ 📂 services       # Lógica de negocio (Interfaces y sus implementaciones 'impl')
 
 ## ⚙️ Requisitos Previos

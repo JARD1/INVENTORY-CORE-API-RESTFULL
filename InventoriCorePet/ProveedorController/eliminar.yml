@@ -1,0 +1,15 @@
+info:
+  name: eliminar
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: http://localhost:8081/api/v1/proveedores/1
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
